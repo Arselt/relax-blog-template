@@ -216,6 +216,46 @@ nav .profile-link a:hover {
     object-fit: cover;
 }
 
+.blogpost-img-container {
+    padding: 0 50px 40px;
+}
+
+.blogpost-img-container img {
+    width: 100%;
+}
+
+.blogpost-main-container {
+    padding: 0 50px 40px;
+}
+
+.blogpost-main-container h2 {
+    border-bottom: 1px solid #cdd2da;
+    padding-bottom: 20px;
+}
+
+.contact-main-container {
+    display: flex;
+    padding: 80px 50px 80px;
+    background-color: #e6e9ed;
+}
+
+.contact-main-container .contact-links {
+    width: 50%;
+    display: flex;
+}
+
+.contact-main-container .contact-links img {
+    width: 100px;
+    height: auto;
+    margin: 10px 20px;
+}
+
+.contact-links a {
+    font-size: 1.8rem;
+    font-weight: 600;
+    border-bottom: 2px solid black;
+}
+
 footer {
     width: 100%;
     height: 80px;
